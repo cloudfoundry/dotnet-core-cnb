@@ -9,6 +9,15 @@ version = "{{.Version}}"
 include_files = ["buildpack.toml"]
 
 [[metadata.dependencies]]
+id = "org.cloudfoundry.dotnet-core-aspnet"
+sha256 = "fa189cfa780a460c01e6b765d466d0b9c498688d5e34d20b2993103082f83164"
+source = "https://github.com/cloudfoundry/dotnet-core-aspnet-cnb/archive/v0.0.9.tar.gz/archive/.tar.gz"
+source_sha256 = "d105e37ff12126bdcc8c45ed7dea0aef6cc98660291f5470450e9e2b38cf0a01"
+stacks = ["org.cloudfoundry.stacks.cflinuxfs3","io.buildpacks.stacks.bionic"]
+uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-aspnet/org.cloudfoundry.dotnet-core-aspnet-0.0.9-any-stack-fa189cfa.tgz"
+version = "0.0.9"
+
+[[metadata.dependencies]]
 id = "org.cloudfoundry.dotnet-core-runtime"
 sha256 = "1ddc644b8bc6de3f61921e9e9d5e909d81f5b3d46fb096da7c0eac46b94c286b"
 source = "https://github.com/cloudfoundry/dotnet-core-runtime-cnb/archive/v0.0.14.tar.gz/archive/.tar.gz"
