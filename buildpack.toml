@@ -1,0 +1,31 @@
+api = "0.2"
+
+[buildpack]
+id = "org.cloudfoundry.dotnet-core"
+name = ".NET Core Buildpack"
+version = "{{.Version}}"
+
+[metadata]
+include_files = ["buildpack.toml"]
+
+[[order]]
+
+[[order.group]]
+id = "org.cloudfoundry.dotnet-core-runtime"
+optional = true
+version = "0.0.14"
+
+[[order.group]]
+id = "org.cloudfoundry.dotnet-core-aspnet"
+optional = true
+version = "0.0.9"
+
+[[order.group]]
+id = "org.cloudfoundry.dotnet-core-sdk"
+optional = true
+version = "0.0.6"
+
+[[order.group]]
+id = "org.cloudfoundry.dotnet-core-conf"
+version = "0.0.20"
+
