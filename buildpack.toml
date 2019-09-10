@@ -8,6 +8,15 @@ version = "{{.Version}}"
 [metadata]
 include_files = ["buildpack.toml"]
 
+[[metadata.dependencies]]
+id = "org.cloudfoundry.dotnet-core-runtime"
+sha256 = "1ddc644b8bc6de3f61921e9e9d5e909d81f5b3d46fb096da7c0eac46b94c286b"
+source = "https://github.com/cloudfoundry/dotnet-core-runtime-cnb/archive/v0.0.14.tar.gz/archive/.tar.gz"
+source_sha256 = "f4f9262c4b4c629fb22d284456980fcfff73b9619d31cb74ab75a3d73d494d71"
+stacks = ["org.cloudfoundry.stacks.cflinuxfs3","io.buildpacks.stacks.bionic"]
+uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-runtime/org.cloudfoundry.dotnet-core-runtime-0.0.14-any-stack-1ddc644b.tgz"
+version = "0.0.14"
+
 [[order]]
 
 [[order.group]]
@@ -28,4 +37,3 @@ version = "0.0.6"
 [[order.group]]
 id = "org.cloudfoundry.dotnet-core-conf"
 version = "0.0.20"
-
