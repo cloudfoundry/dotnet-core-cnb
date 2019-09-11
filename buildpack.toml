@@ -28,12 +28,12 @@ version = "0.0.23"
 
 [[metadata.dependencies]]
 id = "org.cloudfoundry.dotnet-core-runtime"
-sha256 = "57602ce8a61fa5a35547d5fdb3ea085f3d505b40104be2ebff5e04e88a2423ed"
-source = "https://github.com/cloudfoundry/dotnet-core-runtime-cnb/archive/v0.0.18.tar.gz/archive/.tar.gz"
-source_sha256 = "806256c5558f42ef08491ad4bcd473643a4defac2eb0c297cff703c065f28b18"
+sha256 = "898b25ee46584dca283b7f8eea8edd10f1e0278bfa46a2f0b630c30e36f532f4"
+source = "https://github.com/cloudfoundry/dotnet-core-runtime-cnb/archive/v0.0.19.tar.gz/archive/.tar.gz"
+source_sha256 = "24fa161277a237f38f4b45b35ddaf9aed089af792ba689df74915b8c8f411fec"
 stacks = ["org.cloudfoundry.stacks.cflinuxfs3","io.buildpacks.stacks.bionic"]
-uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-runtime/org.cloudfoundry.dotnet-core-runtime-0.0.18-any-stack-57602ce8.tgz"
-version = "0.0.18"
+uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-runtime/org.cloudfoundry.dotnet-core-runtime-0.0.19-any-stack-898b25ee.tgz"
+version = "0.0.19"
 
 [[metadata.dependencies]]
 id = "org.cloudfoundry.dotnet-core-sdk"
@@ -49,7 +49,7 @@ version = "0.0.10"
 [[order.group]]
 id = "org.cloudfoundry.dotnet-core-runtime"
 optional = true
-version = "0.0.18"
+version = "0.0.19"
 
 [[order.group]]
 id = "org.cloudfoundry.dotnet-core-aspnet"
