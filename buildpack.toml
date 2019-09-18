@@ -71,5 +71,10 @@ optional = true
 version = "0.0.22"
 
 [[order.group]]
+id = "org.cloudfoundry.dotnet-core-build"
+optional = true
+version = "0.0.2"
+
+[[order.group]]
 id = "org.cloudfoundry.dotnet-core-conf"
 version = "0.0.29"
