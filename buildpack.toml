@@ -18,6 +18,15 @@ uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-
 version = "0.0.20"
 
 [[metadata.dependencies]]
+id = "org.cloudfoundry.dotnet-core-build"
+sha256 = "b90f8ecb73d02dc5431172ff2fb726b2b10990df13ff2acde08c4b6625f770f3"
+source = "https://github.com/cloudfoundry/dotnet-core-build-cnb/archive/v0.0.2.tar.gz/archive/.tar.gz"
+source_sha256 = "39b5c10be0a92b508c43b5a8ccc51b9126332910248043d91ec81d61411627eb"
+stacks = ["org.cloudfoundry.stacks.cflinuxfs3","io.buildpacks.stacks.bionic"]
+uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-build/org.cloudfoundry.dotnet-core-build-0.0.2-any-stack-b90f8ecb.tgz"
+version = "0.0.2"
+
+[[metadata.dependencies]]
 id = "org.cloudfoundry.dotnet-core-conf"
 sha256 = "e4817e7d72ba4e2fd2968e882af154b5b4badf6a45aaa27420581a58c438fc1d"
 source = "https://github.com/cloudfoundry/dotnet-core-conf-cnb/archive/v0.0.29.tar.gz/archive/.tar.gz"
