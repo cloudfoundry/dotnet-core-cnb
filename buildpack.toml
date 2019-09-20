@@ -19,12 +19,12 @@ version = "0.0.23"
 
 [[metadata.dependencies]]
 id = "org.cloudfoundry.dotnet-core-build"
-sha256 = "31013590eb9f297ceef1d761326021fba5bcbf3dfcfb7c2abf089bceb5862d43"
-source = "https://github.com/cloudfoundry/dotnet-core-build-cnb/archive/v0.0.3.tar.gz/archive/.tar.gz"
-source_sha256 = "53f4849141a58f2beb119beeaa91291eca3d20e26fc7bac75740b4ade035d0e4"
-stacks = ["org.cloudfoundry.stacks.cflinuxfs3","io.buildpacks.stacks.bionic"]
-uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-build/org.cloudfoundry.dotnet-core-build-0.0.3-any-stack-31013590.tgz"
-version = "0.0.3"
+sha256 = "b72d02d77b9992dd4f08ffd6f8842be6ba813c950a677db8e625084fba6aa9ef"
+source = "https://github.com/cloudfoundry/dotnet-core-build-cnb/archive/v0.0.4.tar.gz/archive/.tar.gz"
+source_sha256 = "7cbc7e8e63577dbedf764799bc33d19f3a45e0b57ce725ddfedba7998514b5a6"
+stacks = ["org.cloudfoundry.stacks.cflinuxfs3","io.buildpacks.stacks.bionic","org.cloudfoundry.stacks.tiny"]
+uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-build/org.cloudfoundry.dotnet-core-build-0.0.4-any-stack-b72d02d7.tgz"
+version = "0.0.4"
 
 [[metadata.dependencies]]
 id = "org.cloudfoundry.dotnet-core-conf"
@@ -73,7 +73,7 @@ version = "0.0.27"
 [[order.group]]
 id = "org.cloudfoundry.dotnet-core-build"
 optional = true
-version = "0.0.3"
+version = "0.0.4"
 
 [[order.group]]
 id = "org.cloudfoundry.dotnet-core-conf"
