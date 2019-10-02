@@ -10,12 +10,12 @@ include_files = ["buildpack.toml"]
 
 [[metadata.dependencies]]
 id = "org.cloudfoundry.dotnet-core-aspnet"
-sha256 = "f124f4bc0aac4be847e0ad276db1dfd6fc9d9111ec848a600a7fdf49296676b1"
-source = "https://github.com/cloudfoundry/dotnet-core-aspnet-cnb/archive/v0.0.33.tar.gz/archive/.tar.gz"
-source_sha256 = "ffc643b1c6e2ae0abd5c94c9d620096950f2926e5edf1c9b15089bace25d8172"
+sha256 = "f80bb5acf5663c758e66d928c3ff11c5f6fc1e5edb991658a9a000bb91af3158"
+source = "https://github.com/cloudfoundry/dotnet-core-aspnet-cnb/archive/v0.0.34.tar.gz/archive/.tar.gz"
+source_sha256 = "d8bc24680ee5838104c44961cbc15f78d24310f869309c7af5b7dc3c186a05e2"
 stacks = ["org.cloudfoundry.stacks.cflinuxfs3","io.buildpacks.stacks.bionic","org.cloudfoundry.stacks.tiny"]
-uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-aspnet/org.cloudfoundry.dotnet-core-aspnet-0.0.33-any-stack-f124f4bc.tgz"
-version = "0.0.33"
+uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-aspnet/org.cloudfoundry.dotnet-core-aspnet-0.0.34-any-stack-f80bb5ac.tgz"
+version = "0.0.34"
 
 [[metadata.dependencies]]
 id = "org.cloudfoundry.dotnet-core-build"
@@ -63,7 +63,7 @@ version = "0.0.41"
 [[order.group]]
 id = "org.cloudfoundry.dotnet-core-aspnet"
 optional = true
-version = "0.0.33"
+version = "0.0.34"
 
 [[order.group]]
 id = "org.cloudfoundry.dotnet-core-sdk"
