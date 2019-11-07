@@ -47,21 +47,21 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.dotnet-core-build"
-    sha256 = "014fac75450dfc584bf09745715f6bb4e8ea3fc44299db493747b778e3996269"
-    source = "https://github.com/cloudfoundry/dotnet-core-build-cnb/archive/v0.0.30.tar.gz"
-    source_sha256 = "d878e21a014f1ceae2c67fa1a01fb1f75da2bbf40edcf3a8f3e3f7bbf249c83e"
+    sha256 = "0d308f0e59b39b174b6d510d6c2be54a3d2002251493da0fd3f0d622f3ca0de0"
+    source = "https://github.com/cloudfoundry/dotnet-core-build-cnb/archive/v0.0.31.tar.gz"
+    source_sha256 = "a1ddb6418fd71b49809fbfb4f5bab9c70b66f5d4c9cb6535280fc190bf093c4b"
     stacks = ["io.buildpacks.stacks.bionic"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-build/org.cloudfoundry.dotnet-core-build-0.0.30-any-stack-014fac75.tgz"
-    version = "0.0.30"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-build/org.cloudfoundry.dotnet-core-build-0.0.31-any-stack-0d308f0e.tgz"
+    version = "0.0.31"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.dotnet-core-build"
-    sha256 = "014fac75450dfc584bf09745715f6bb4e8ea3fc44299db493747b778e3996269"
-    source = "https://github.com/cloudfoundry/dotnet-core-build-cnb/archive/v0.0.30.tar.gz"
-    source_sha256 = "d878e21a014f1ceae2c67fa1a01fb1f75da2bbf40edcf3a8f3e3f7bbf249c83e"
+    sha256 = "0d308f0e59b39b174b6d510d6c2be54a3d2002251493da0fd3f0d622f3ca0de0"
+    source = "https://github.com/cloudfoundry/dotnet-core-build-cnb/archive/v0.0.31.tar.gz"
+    source_sha256 = "a1ddb6418fd71b49809fbfb4f5bab9c70b66f5d4c9cb6535280fc190bf093c4b"
     stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-build/org.cloudfoundry.dotnet-core-build-0.0.30-any-stack-014fac75.tgz"
-    version = "0.0.30"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-build/org.cloudfoundry.dotnet-core-build-0.0.31-any-stack-0d308f0e.tgz"
+    version = "0.0.31"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.dotnet-core-conf"
@@ -160,7 +160,7 @@ api = "0.2"
 
   [[order.group]]
     id = "org.cloudfoundry.dotnet-core-build"
-    version = "0.0.30"
+    version = "0.0.31"
 
   [[order.group]]
     id = "org.cloudfoundry.dotnet-core-conf"
