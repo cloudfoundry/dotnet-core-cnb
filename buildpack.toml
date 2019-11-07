@@ -74,21 +74,21 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.dotnet-core-conf"
-    sha256 = "f669714af72c8baea2fbafabcef78973185ac344e8cfd8faf0691d84c6908f4b"
-    source = "https://github.com/cloudfoundry/dotnet-core-conf-cnb/archive/v0.0.71.tar.gz"
-    source_sha256 = "28daf3d987e90a0b806c0a3bd33cf2c6743df52ee2863584d31160f856d4939a"
+    sha256 = "a0a489bfb136c03ee4ce17cd4b9f63feed85121d51771456519d65ce19c90cb1"
+    source = "https://github.com/cloudfoundry/dotnet-core-conf-cnb/archive/v0.0.72.tar.gz"
+    source_sha256 = "350d1a9b7030afa34e65ca880d8106c82636a53f4a821b96b43d2d160ffec495"
     stacks = ["io.buildpacks.stacks.bionic"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-conf/org.cloudfoundry.dotnet-core-conf-0.0.71-any-stack-f669714a.tgz"
-    version = "0.0.71"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-conf/org.cloudfoundry.dotnet-core-conf-0.0.72-any-stack-a0a489bf.tgz"
+    version = "0.0.72"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.dotnet-core-conf"
-    sha256 = "f669714af72c8baea2fbafabcef78973185ac344e8cfd8faf0691d84c6908f4b"
-    source = "https://github.com/cloudfoundry/dotnet-core-conf-cnb/archive/v0.0.71.tar.gz"
-    source_sha256 = "28daf3d987e90a0b806c0a3bd33cf2c6743df52ee2863584d31160f856d4939a"
+    sha256 = "a0a489bfb136c03ee4ce17cd4b9f63feed85121d51771456519d65ce19c90cb1"
+    source = "https://github.com/cloudfoundry/dotnet-core-conf-cnb/archive/v0.0.72.tar.gz"
+    source_sha256 = "350d1a9b7030afa34e65ca880d8106c82636a53f4a821b96b43d2d160ffec495"
     stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-conf/org.cloudfoundry.dotnet-core-conf-0.0.71-any-stack-f669714a.tgz"
-    version = "0.0.71"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-conf/org.cloudfoundry.dotnet-core-conf-0.0.72-any-stack-a0a489bf.tgz"
+    version = "0.0.72"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.dotnet-core-runtime"
@@ -164,4 +164,4 @@ api = "0.2"
 
   [[order.group]]
     id = "org.cloudfoundry.dotnet-core-conf"
-    version = "0.0.71"
+    version = "0.0.72"
