@@ -128,21 +128,21 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.dotnet-core-sdk"
-    sha256 = "048f7b53cc1a78c686e9de6da923a27394bd736dc508d1d33e130c8f6699d2c5"
-    source = "https://github.com/cloudfoundry/dotnet-core-sdk-cnb/archive/v0.0.68.tar.gz"
-    source_sha256 = "db3d00e46defadc7225b53abec4334d51facf7d47a13061c81331f1c73dfcf7a"
+    sha256 = "29a1fd73da8cf7f30608bf2df069bb4ce2015dd5a0be7292e28205265ccb652a"
+    source = "https://github.com/cloudfoundry/dotnet-core-sdk-cnb/archive/v0.0.69.tar.gz"
+    source_sha256 = "8c26bf749893c0021ca817d1cdd846676b5fdc90de467343cc861763c04bd29a"
     stacks = ["io.buildpacks.stacks.bionic"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-sdk/org.cloudfoundry.dotnet-core-sdk-0.0.68-any-stack-048f7b53.tgz"
-    version = "0.0.68"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-sdk/org.cloudfoundry.dotnet-core-sdk-0.0.69-any-stack-29a1fd73.tgz"
+    version = "0.0.69"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.dotnet-core-sdk"
-    sha256 = "048f7b53cc1a78c686e9de6da923a27394bd736dc508d1d33e130c8f6699d2c5"
-    source = "https://github.com/cloudfoundry/dotnet-core-sdk-cnb/archive/v0.0.68.tar.gz"
-    source_sha256 = "db3d00e46defadc7225b53abec4334d51facf7d47a13061c81331f1c73dfcf7a"
+    sha256 = "29a1fd73da8cf7f30608bf2df069bb4ce2015dd5a0be7292e28205265ccb652a"
+    source = "https://github.com/cloudfoundry/dotnet-core-sdk-cnb/archive/v0.0.69.tar.gz"
+    source_sha256 = "8c26bf749893c0021ca817d1cdd846676b5fdc90de467343cc861763c04bd29a"
     stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-sdk/org.cloudfoundry.dotnet-core-sdk-0.0.68-any-stack-048f7b53.tgz"
-    version = "0.0.68"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-sdk/org.cloudfoundry.dotnet-core-sdk-0.0.69-any-stack-29a1fd73.tgz"
+    version = "0.0.69"
 
 [[order]]
 
@@ -156,7 +156,7 @@ api = "0.2"
 
   [[order.group]]
     id = "org.cloudfoundry.dotnet-core-sdk"
-    version = "0.0.68"
+    version = "0.0.69"
 
   [[order.group]]
     id = "org.cloudfoundry.dotnet-core-build"
