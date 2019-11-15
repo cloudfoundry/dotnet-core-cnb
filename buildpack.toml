@@ -66,6 +66,11 @@ api = "0.2"
 [[order]]
 
   [[order.group]]
+    id = "org.cloudfoundry.icu-cnb"
+    version = "0.0.6"
+    optional = true
+
+  [[order.group]]
     id = "org.cloudfoundry.dotnet-core-runtime"
     version = "0.0.81"
     optional = true
