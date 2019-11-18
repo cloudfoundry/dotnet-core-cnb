@@ -46,12 +46,14 @@ func testIntegration(t *testing.T, when spec.G, it spec.S) {
 			).Build()
 			Expect(err).NotTo(HaveOccurred())
 
-			Expect(app.Start()).To(Succeed())
-
-			// we use the correct stack & buildpack
 			if builder == "bionic" {
 				app.SetHealthCheck("stat /workspace", "2s", "15s")
 			}
+
+			Expect(app.Start()).To(Succeed())
+
+			// we use the correct stack & buildpack
+
 			// this is kind of awkwards...
 			if builder == "cflinuxfs3" {
 				Expect(app.BuildLogs()).NotTo(ContainSubstring("org.cloudfoundry.icu"))
