@@ -63,6 +63,15 @@ api = "0.2"
     uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.icu/org.cloudfoundry.icu-0.0.11-any-stack-0ae2f426.tgz"
     version = "0.0.11"
 
+  [[metadata.dependencies]]
+    id = "org.cloudfoundry.node-engine"
+    sha256 = "8bd979359242af236568673ca1dd8b75ead39953068e938d72c495279b58740e"
+    source = "https://github.com/cloudfoundry/node-engine-cnb/archive/v0.0.117.tar.gz"
+    source_sha256 = "a2a0993611260b4db10923037fc186f6a9ac5ceff218ebb060ffa0042d8c87ce"
+    stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.node-engine/org.cloudfoundry.node-engine-0.0.117-any-stack-8bd97935.tgz"
+    version = "0.0.117"
+
 [[order]]
 
   [[order.group]]
