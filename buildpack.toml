@@ -66,6 +66,11 @@ api = "0.2"
 [[order]]
 
   [[order.group]]
+    id = "org.cloudfoundry.node-engine"
+    version = "0.0.117"
+    optional = true
+
+  [[order.group]]
     id = "org.cloudfoundry.icu"
     version = "0.0.11"
     optional = true
