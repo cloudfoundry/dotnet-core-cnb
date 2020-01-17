@@ -39,7 +39,7 @@ func testIntegration(t *testing.T, when spec.G, it spec.S) {
 	when("trying to build a .NET app using the metabuildpack", func() {
 		it("successfully builds and runs an app", func() {
 			app, err = dagger.NewPack(
-				filepath.Join("testdata", "simple_2.2_source"),
+				filepath.Join("testdata", "simple_3.1_source"),
 				dagger.RandomImage(),
 				dagger.SetBuilder(builder),
 				dagger.NoPull(),
