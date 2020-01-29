@@ -1,21 +1,21 @@
 api = "0.2"
 
 [buildpack]
-id = "org.cloudfoundry.dotnet-core"
-name = ".NET Core Buildpack"
-version = "{{.Version}}"
+  id = "org.cloudfoundry.dotnet-core"
+  name = ".NET Core Buildpack"
+  version = "{{.Version}}"
 
 [metadata]
-include_files = ["buildpack.toml"]
+  include_files = ["buildpack.toml"]
 
-[[metadata.dependencies]]
-id = "lifecycle"
-version = "0.5.0"
-uri = "https://buildpacks.cloudfoundry.org/dependencies/lifecycle/lifecycle-0.5.0-any-stack-fe375030.tgz"
-sha256 = "fe37503098e964aa1a052abb50fecf2de3624c0049506e638c86dc5b4b7909e8"
-source = "https://github.com/buildpack/lifecycle/archive/v0.5.0.tar.gz"
-source_sha256 = "96c50622096b252b596a33731785ae959992078eada660ae068d86607faee6a6"
-stacks = ["org.cloudfoundry.stacks.cflinuxfs3","org.cloudfoundry.stacks.cflinuxfs2"]
+  [[metadata.dependencies]]
+    id = "lifecycle"
+    sha256 = "fe37503098e964aa1a052abb50fecf2de3624c0049506e638c86dc5b4b7909e8"
+    source = "https://github.com/buildpack/lifecycle/archive/v0.5.0.tar.gz"
+    source_sha256 = "96c50622096b252b596a33731785ae959992078eada660ae068d86607faee6a6"
+    stacks = ["org.cloudfoundry.stacks.cflinuxfs2", "org.cloudfoundry.stacks.cflinuxfs3"]
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/lifecycle/lifecycle-0.5.0-any-stack-fe375030.tgz"
+    version = "0.5.0"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.dotnet-core-aspnet"
@@ -73,18 +73,18 @@ stacks = ["org.cloudfoundry.stacks.cflinuxfs3","org.cloudfoundry.stacks.cflinuxf
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.node-engine"
-    sha256 = "8bd979359242af236568673ca1dd8b75ead39953068e938d72c495279b58740e"
-    source = "https://github.com/cloudfoundry/node-engine-cnb/archive/v0.0.117.tar.gz"
-    source_sha256 = "a2a0993611260b4db10923037fc186f6a9ac5ceff218ebb060ffa0042d8c87ce"
+    sha256 = "681abc20ce564f5e5cea630724e9d90028b39fa1db3b408e1214095906feefbd"
+    source = "https://github.com/cloudfoundry/node-engine-cnb/archive/v0.0.145.tar.gz"
+    source_sha256 = "c5a9cd09de1143c0e373992021ee0fd5a9210a9a3be8663edda3ad525cdd66f5"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.node-engine/org.cloudfoundry.node-engine-0.0.117-any-stack-8bd97935.tgz"
-    version = "0.0.117"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.node-engine/org.cloudfoundry.node-engine-0.0.145-any-stack-681abc20.tgz"
+    version = "0.0.145"
 
 [[order]]
 
   [[order.group]]
     id = "org.cloudfoundry.node-engine"
-    version = "0.0.117"
+    version = "0.0.145"
     optional = true
 
   [[order.group]]
