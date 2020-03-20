@@ -47,12 +47,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.dotnet-core-sdk"
-    sha256 = "17fe96794b2d022ad0e19e71460890c9118c16b61fbb0389267d11895af74ac3"
-    source = "https://github.com/cloudfoundry/dotnet-core-sdk-cnb/archive/v0.0.123.tar.gz"
-    source_sha256 = "926850c542b1f608f2c75c9fdb726b04c910db8f88debe3206040092cba83c58"
+    sha256 = "28327073015888b2e9f86151fcfa666879ec0028a1f3ba3b1920abc02ac4baa0"
+    source = "https://github.com/cloudfoundry/dotnet-core-sdk-cnb/archive/v0.0.124.tar.gz"
+    source_sha256 = "7f1cd059b08263e9a96dfd21b4078632a5227af493fecb0e18d22128744816ae"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-sdk/org.cloudfoundry.dotnet-core-sdk-0.0.123-any-stack-17fe9679.tgz"
-    version = "0.0.123"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-sdk/org.cloudfoundry.dotnet-core-sdk-0.0.124-any-stack-28327073.tgz"
+    version = "0.0.124"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.icu"
@@ -96,7 +96,7 @@ api = "0.2"
 
   [[order.group]]
     id = "org.cloudfoundry.dotnet-core-sdk"
-    version = "0.0.123"
+    version = "0.0.124"
     optional = true
 
   [[order.group]]
