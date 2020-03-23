@@ -64,12 +64,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.icu"
-    sha256 = "63ef26fe87b95d010a42c617a44a5e416c9ef118a27e140504dc3c53c65b4310"
-    source = "https://github.com/cloudfoundry/icu-cnb/archive/v0.0.45.tar.gz"
-    source_sha256 = "c0741a30ef12bc5ab6114b1a8d3677b4e28eca306f5243136daa68f5e25e22c6"
+    sha256 = "08a50b5b941860962b162072914ddd5634d0905662993674c91a183fbc68fa44"
+    source = "https://github.com/cloudfoundry/icu-cnb/archive/v0.0.48.tar.gz"
+    source_sha256 = "098f3fab16e925ef68171d322a7baaafb4fa8e7dd485053a706b5c1a5f2b380f"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.icu/org.cloudfoundry.icu-0.0.45-any-stack-63ef26fe.tgz"
-    version = "0.0.45"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.icu/org.cloudfoundry.icu_0.0.48_linux_noarch_any-stack_08a50b5b.tgz"
+    version = "0.0.48"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.node-engine"
@@ -89,7 +89,7 @@ api = "0.2"
 
   [[order.group]]
     id = "org.cloudfoundry.icu"
-    version = "0.0.45"
+    version = "0.0.48"
     optional = true
 
   [[order.group]]
