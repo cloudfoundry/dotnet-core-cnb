@@ -64,7 +64,7 @@ api = "0.2"
     version = "0.0.50"
 
   [[metadata.dependencies]]
-    id = "org.cloudfoundry.node-engine"
+    id = "paketo-buildpacks/node-engine"
     sha256 = "fe616060aee70ccd5f7cfa83aca7f0adf5a55d6eae9599f317163fe90ed5ace0"
     source = "https://github.com/cloudfoundry/node-engine-cnb/archive/v0.0.177.tar.gz"
     source_sha256 = "0f1f93c7922cc25e0f1deffc0978b8e18d82cb390eb6adb63da6c1c6ad8a21cc"
@@ -75,7 +75,7 @@ api = "0.2"
 [[order]]
 
   [[order.group]]
-    id = "org.cloudfoundry.node-engine"
+    id = "paketo-buildpacks/node-engine"
     version = "0.0.177"
     optional = true
 
