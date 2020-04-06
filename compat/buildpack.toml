@@ -18,7 +18,7 @@ api = "0.2"
     version = "0.5.0"
 
   [[metadata.dependencies]]
-    id = "org.cloudfoundry.dotnet-core-aspnet"
+    id = "paketo-buildpacks/dotnet-core-aspnet"
     sha256 = "006a29866fe71693fd34a6b148725412fe5b40d3b4b45ab91647a824f111019b"
     source = "https://github.com/cloudfoundry/dotnet-core-aspnet-cnb/archive/v0.0.128.tar.gz"
     source_sha256 = "3053cea12023272263f713e731000e07c5acc3b47b12b3207c2b52b09ae991f9"
@@ -27,7 +27,7 @@ api = "0.2"
     version = "0.0.128"
 
   [[metadata.dependencies]]
-    id = "org.cloudfoundry.dotnet-core-build"
+    id = "paketo-buildpacks/dotnet-core-build"
     sha256 = "2ef58689098300fdbf56e10052b5c8df942b0e1298187ffea03f7275939ebe6d"
     source = "https://github.com/cloudfoundry/dotnet-core-build-cnb/archive/v0.0.70.tar.gz"
     source_sha256 = "c79670babae5594b2eff8cbe7ced4c62a849a07ea8b5997399760a990dbe24b2"
@@ -36,7 +36,7 @@ api = "0.2"
     version = "0.0.70"
 
   [[metadata.dependencies]]
-    id = "org.cloudfoundry.dotnet-core-conf"
+    id = "paketo-buildpacks/dotnet-core-conf"
     sha256 = "f5e770da43aa4d015a1efbaad3fde6e002e2ea56c09990bf7ea4bae12b39fe60"
     source = "https://github.com/cloudfoundry/dotnet-core-conf-cnb/archive/v0.0.121.tar.gz"
     source_sha256 = "fd6b141a03315e1257176a3066cd5817203b15eb37dc6849d459049791b25338"
@@ -45,7 +45,7 @@ api = "0.2"
     version = "0.0.121"
 
   [[metadata.dependencies]]
-    id = "org.cloudfoundry.dotnet-core-runtime"
+    id = "paketo-buildpacks/dotnet-core-runtime"
     sha256 = "fa9c2b6632c95d73f4edeee04d9af21fd6dda8df42ccbe1a82b6c0a660337621"
     source = "https://github.com/cloudfoundry/dotnet-core-runtime-cnb/archive/v0.0.134.tar.gz"
     source_sha256 = "3d95c7f69603720a6d855a51109a11063294a7d40a46b62007c2a0c1048ff0bc"
@@ -54,7 +54,7 @@ api = "0.2"
     version = "0.0.134"
 
   [[metadata.dependencies]]
-    id = "org.cloudfoundry.dotnet-core-sdk"
+    id = "paketo-buildpacks/dotnet-core-sdk"
     sha256 = "88f57001cefa854087315934ddd4e9e85c267d34797df0a5de320344c90f108d"
     source = "https://github.com/cloudfoundry/dotnet-core-sdk-cnb/archive/v0.0.132.tar.gz"
     source_sha256 = "f9cc1c1f2cbd826a90992876607c04d74cf1bfa9a75009848780f9d24f182fe0"
@@ -63,7 +63,7 @@ api = "0.2"
     version = "0.0.132"
 
   [[metadata.dependencies]]
-    id = "org.cloudfoundry.icu"
+    id = "paketo-buildpacks/icu"
     sha256 = "8362a7254ce3ead513935dd2732db5a55f770df9e36ce95136accf047ed4e938"
     source = "https://github.com/cloudfoundry/icu-cnb/archive/v0.0.51.tar.gz"
     source_sha256 = "4261315fb9849df01bace33869e75c13fc1deda89894e25bd839c73720039645"
@@ -72,7 +72,7 @@ api = "0.2"
     version = "0.0.51"
 
   [[metadata.dependencies]]
-    id = "org.cloudfoundry.node-engine"
+    id = "paketo-buildpacks/node-engine"
     sha256 = "fe616060aee70ccd5f7cfa83aca7f0adf5a55d6eae9599f317163fe90ed5ace0"
     source = "https://github.com/cloudfoundry/node-engine-cnb/archive/v0.0.177.tar.gz"
     source_sha256 = "0f1f93c7922cc25e0f1deffc0978b8e18d82cb390eb6adb63da6c1c6ad8a21cc"
@@ -83,35 +83,35 @@ api = "0.2"
 [[order]]
 
   [[order.group]]
-    id = "org.cloudfoundry.node-engine"
+    id = "paketo-buildpacks/node-engine"
     version = "0.0.177"
     optional = true
 
   [[order.group]]
-    id = "org.cloudfoundry.icu"
+    id = "paketo-buildpacks/icu"
     version = "0.0.51"
     optional = true
 
   [[order.group]]
-    id = "org.cloudfoundry.dotnet-core-runtime"
+    id = "paketo-buildpacks/dotnet-core-runtime"
     version = "0.0.134"
     optional = true
 
   [[order.group]]
-    id = "org.cloudfoundry.dotnet-core-aspnet"
+    id = "paketo-buildpacks/dotnet-core-aspnet"
     version = "0.0.128"
     optional = true
 
   [[order.group]]
-    id = "org.cloudfoundry.dotnet-core-sdk"
+    id = "paketo-buildpacks/dotnet-core-sdk"
     version = "0.0.132"
     optional = true
 
   [[order.group]]
-    id = "org.cloudfoundry.dotnet-core-build"
+    id = "paketo-buildpacks/dotnet-core-build"
     version = "0.0.70"
     optional = true
 
   [[order.group]]
-    id = "org.cloudfoundry.dotnet-core-conf"
+    id = "paketo-buildpacks/dotnet-core-conf"
     version = "0.0.121"

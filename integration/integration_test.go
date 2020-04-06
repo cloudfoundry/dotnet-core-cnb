@@ -56,7 +56,7 @@ func testIntegration(t *testing.T, when spec.G, it spec.S) {
 
 			// this is kind of awkwards...
 			if builder == "cflinuxfs3" {
-				Expect(app.BuildLogs()).NotTo(ContainSubstring("org.cloudfoundry.icu"))
+				Expect(app.BuildLogs()).NotTo(ContainSubstring("paketo-buildpacks/icu"))
 			}
 			body, _, err := app.HTTPGet("/")
 
