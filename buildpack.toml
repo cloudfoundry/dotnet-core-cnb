@@ -56,12 +56,12 @@ api = "0.2"
 
   [[metadata.dependencies]]
     id = "org.cloudfoundry.icu"
-    sha256 = "d709b49ebf0ab416779eb7d1c2a576139ddc83cbcc95d56a708ad2416885406f"
-    source = "https://github.com/cloudfoundry/icu-cnb/archive/v0.0.50.tar.gz"
-    source_sha256 = "4c2923c72063a12f044f6c3951b850689aa2c8836f8608538f918c64e38fbfb4"
+    sha256 = "8362a7254ce3ead513935dd2732db5a55f770df9e36ce95136accf047ed4e938"
+    source = "https://github.com/cloudfoundry/icu-cnb/archive/v0.0.51.tar.gz"
+    source_sha256 = "4261315fb9849df01bace33869e75c13fc1deda89894e25bd839c73720039645"
     stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
-    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.icu/org.cloudfoundry.icu_0.0.50_linux_noarch_any-stack_d709b49e.tgz"
-    version = "0.0.50"
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.icu/org.cloudfoundry.icu_0.0.51_linux_noarch_any-stack_8362a725.tgz"
+    version = "0.0.51"
 
   [[metadata.dependencies]]
     id = "paketo-buildpacks/node-engine"
@@ -81,7 +81,7 @@ api = "0.2"
 
   [[order.group]]
     id = "org.cloudfoundry.icu"
-    version = "0.0.50"
+    version = "0.0.51"
     optional = true
 
   [[order.group]]
