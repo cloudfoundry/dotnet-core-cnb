@@ -55,7 +55,7 @@ api = "0.2"
     version = "0.0.131"
 
   [[metadata.dependencies]]
-    id = "org.cloudfoundry.icu"
+    id = "paketo-buildpacks/icu"
     sha256 = "8362a7254ce3ead513935dd2732db5a55f770df9e36ce95136accf047ed4e938"
     source = "https://github.com/cloudfoundry/icu-cnb/archive/v0.0.51.tar.gz"
     source_sha256 = "4261315fb9849df01bace33869e75c13fc1deda89894e25bd839c73720039645"
@@ -80,7 +80,7 @@ api = "0.2"
     optional = true
 
   [[order.group]]
-    id = "org.cloudfoundry.icu"
+    id = "paketo-buildpacks/icu"
     version = "0.0.51"
     optional = true
 
