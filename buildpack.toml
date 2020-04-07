@@ -10,6 +10,15 @@ api = "0.2"
   include_files = ["buildpack.toml"]
 
   [[metadata.dependencies]]
+    id = "org.cloudfoundry.icu"
+    sha256 = "bca087ba720f4d1493a92fbd8d2a36f19cae91adf171872ef37531b174667de2"
+    source = "https://github.com/cloudfoundry/icu-cnb/archive/v0.0.52.tar.gz"
+    source_sha256 = "923941d463c6a201277a661a2ca944f9e7f4793cbda50c2de2773c60a0152161"
+    stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.icu/org.cloudfoundry.icu_0.0.52_linux_noarch_any-stack_bca087ba.tgz"
+    version = "0.0.52"
+
+  [[metadata.dependencies]]
     id = "org.cloudfoundry.node-engine"
     sha256 = "ae92b009fb167ed56cf19e5050480606ca7e17dda977e73225f4d1e43d03956e"
     source = "https://github.com/cloudfoundry/node-engine-cnb/archive/v0.0.178.tar.gz"
