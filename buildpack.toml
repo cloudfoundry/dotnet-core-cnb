@@ -54,21 +54,39 @@ api = "0.2"
     uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.node-engine/org.cloudfoundry.node-engine_0.0.178_linux_noarch_any-stack_ae92b009.tgz"
     version = "0.0.178"
 
+  [[metadata.dependencies]]
+    id = "paketo-buildpacks/dotnet-core-aspnet"
+    sha256 = "006a29866fe71693fd34a6b148725412fe5b40d3b4b45ab91647a824f111019b"
+    source = "https://github.com/cloudfoundry/dotnet-core-aspnet-cnb/archive/v0.0.128.tar.gz"
+    source_sha256 = "3053cea12023272263f713e731000e07c5acc3b47b12b3207c2b52b09ae991f9"
+    stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-aspnet/org.cloudfoundry.dotnet-core-aspnet_0.0.128_linux_noarch_any-stack_006a2986.tgz"
+    version = "0.0.128"
+
+  [[metadata.dependencies]]
+    id = "paketo-buildpacks/dotnet-core-build"
+    sha256 = "2ef58689098300fdbf56e10052b5c8df942b0e1298187ffea03f7275939ebe6d"
+    source = "https://github.com/cloudfoundry/dotnet-core-build-cnb/archive/v0.0.70.tar.gz"
+    source_sha256 = "c79670babae5594b2eff8cbe7ced4c62a849a07ea8b5997399760a990dbe24b2"
+    stacks = ["io.buildpacks.stacks.bionic", "org.cloudfoundry.stacks.cflinuxfs3"]
+    uri = "https://buildpacks.cloudfoundry.org/dependencies/org.cloudfoundry.dotnet-core-build/org.cloudfoundry.dotnet-core-build_0.0.70_linux_noarch_any-stack_2ef58689.tgz"
+    version = "0.0.70"
+
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/node-engine"
-    version = "0.0.177"
+    version = "0.0.178"
     optional = true
 
   [[order.group]]
     id = "paketo-buildpacks/icu"
-    version = "0.0.51"
+    version = "0.0.52"
     optional = true
 
   [[order.group]]
     id = "paketo-buildpacks/dotnet-core-runtime"
-    version = "0.0.134"
+    version = "0.0.135"
     optional = true
 
   [[order.group]]
@@ -78,7 +96,7 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/dotnet-core-sdk"
-    version = "0.0.132"
+    version = "0.0.133"
     optional = true
 
   [[order.group]]
@@ -88,4 +106,4 @@ api = "0.2"
 
   [[order.group]]
     id = "paketo-buildpacks/dotnet-core-conf"
-    version = "0.0.121"
+    version = "0.0.122"
